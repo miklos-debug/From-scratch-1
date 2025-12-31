@@ -1,0 +1,11 @@
+{
+  "name": "profile-frontend",
+  "version": "1.0.0",
+  "description": "Static profile screen front-end built with Tailwind CDN.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "python -m http.server 4173 --directory public",
+    "build": "mkdir -p public && cp index.html public/index.html",
+    "preview": "python -m http.server 4173 --directory public"
+  }
+}
